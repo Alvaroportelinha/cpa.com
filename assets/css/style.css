@@ -362,9 +362,6 @@ footer {
     justify-content:center;
     align-content: flex-start;
     flex-wrap: wrap;
-    padding: 0;
-    gap: 0;
-    margin: 0;
 }
 
 .cont-footer div {
@@ -380,11 +377,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
-.footer-contactos{
-    display: flex;
-    flex-direction: column;
-   
-}
+
 .contacto {
     display: flex;
     flex-direction: column;
@@ -417,4 +410,161 @@ footer {
     color: white;
     background-color: rgb(19, 20, 28);
     height: 70px;
+}
+
+/* ---- Contact----*/
+
+
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #fa8d0f;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0097a7;
+}
+
+.contact-info {
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+/* --end contact */
+
+
+.services-header {
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.services-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.services-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.service-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }

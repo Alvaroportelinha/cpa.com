@@ -9,21 +9,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
     </style>
-    <title>CPA - Serviços</title>
-</head>
-
-<body>
-    <!DOCTYPE html>
-<html lang="pt-PT">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="../assets/image/favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-    </style>
     <title>CPA - Contato</title>
 </head>
 
@@ -43,40 +28,47 @@
         </header>
 
         <main>
-    <div class="container">
-
-
-        <main>
-            <section class="services-header">
-                <h1>Os Nossos Serviços</h1>
-                <p>Oferecemos uma ampla gama de serviços para atender às suas necessidades. Explore abaixo para saber mais.</p>
+            <section class="contact-header">
+                <h1>Entre em Contato</h1>
+                <p>Estamos aqui para ajudá-lo. Preencha o formulário abaixo ou utilize as informações de contato disponíveis.</p>
             </section>
 
-            <section class="services-list">
-                <div class="service-item">
-                    <img src="../assets/image/service1.jpg" alt="Serviço 1">
-                    <h2>Consultoria Empresarial</h2>
-                    <p>Auxiliamos empresas a otimizar seus processos e alcançar seus objetivos estratégicos com soluções personalizadas.</p>
+            <section class="contact-form">
+                <div class="form-container">
+                    <form action="#" method="POST">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                        
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="Digite o assunto" required>
+                        
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
-                <div class="service-item">
-                    <img src="../assets/image/service2.jpg" alt="Serviço 2">
-                    <h2>Desenvolvimento Web</h2>
-                    <p>Criação de sites modernos e responsivos para melhorar a presença digital da sua empresa.</p>
+            </section>
+
+            <section class="contact-info">
+                <div>
+                    <h3>Nossos Contatos</h3>
+                    <p><strong>Endereço:</strong> Rua dos Exemplo, 123, Luanda</p>
+                    <p><strong>Telefone:</strong> +244 999 999 999</p>
+                    <p><strong>Email:</strong> contato@cpa.com</p>
                 </div>
-                <div class="service-item">
-                    <img src="../assets/image/service3.jpg" alt="Serviço 3">
-                    <h2>Marketing Digital</h2>
-                    <p>Estratégias de marketing eficazes para aumentar a visibilidade e o engajamento com seu público-alvo.</p>
-                </div>
-                <div class="service-item">
-                    <img src="../assets/image/service4.jpg" alt="Serviço 4">
-                    <h2>Suporte Técnico</h2>
-                    <p>Serviços de suporte técnico confiáveis para garantir que seus sistemas funcionem perfeitamente.</p>
+                <div>
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 9h às 13h</p>
+                    <p>Domingo: Fechado</p>
                 </div>
             </section>
         </main>
 
-        <
         <footer>
             <div class="cont-footer">
                 <div>
@@ -129,6 +121,7 @@
                 <p>© Copyright 2025 - Designed by:</p>
             </code>
         </div>
+    </div>
     </div>
 </body>
 
