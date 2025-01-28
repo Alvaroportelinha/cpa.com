@@ -4,6 +4,8 @@ Welcome to the official repository for the **CPA** website! This project is buil
 
 ## Project Overview 📝
 
+view the projecto https://alvaroportelinha.github.io/cpa.com/
+
 The CPA website aims to:
 
 1. **Provide Information**: Share details about CPA's mission, vision, and services.
@@ -51,7 +53,7 @@ To view or edit the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/cpa-website.git
+   git clone https://alvaroportelinha.github.io/cpa.com/
    ```
 
 2. Open the project directory:
