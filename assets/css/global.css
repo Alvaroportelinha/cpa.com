@@ -1,0 +1,51 @@
+
+* {
+    font-size: 14px;
+    margin: 1px solid lightgray;
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: "Manrope", serif;
+
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 3rem;
+
+}
+h4{
+    font-size: 2.5rem;
+}
+h5{
+    font-size: 2rem;
+}
+h6{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+span{
+    color:  rgba(252, 141, 30, 0.801);
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(245, 245, 245);
+
+
+}
+
+button{
+    background-color: rgba(252, 141, 30, 0.801);
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+}

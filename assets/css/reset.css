@@ -1,0 +1,7 @@
+/* Resetando a margem e o padding de todos os elementos */
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
