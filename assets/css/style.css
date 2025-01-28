@@ -298,7 +298,7 @@ justify-content: center;
     width: calc(50% - 5px);
     height: calc(50% - 5px);
     background-size: cover;
-    border: solid 1px white;
+   
 }
 
 .view-img img {
